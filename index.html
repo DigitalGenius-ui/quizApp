@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./javascript/index.js" defer></script>
+    <script src="./javascript/index2.js" defer></script>
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="start-btn">
+            <button class="start">Start Quiz</button>
+        </div>
+        <div class="information">
+            <header>
+                <h1>Some Rules of this Quize</h1>
+            </header>
+            <div class="information-option">
+                <p>1 : You will have only <span>15 seconds</span> per each question.</p>
+                <p>2 : Once you select your answer, it cant be undone.</p>
+                <p>3 : You cant select any option once times goes off.</p>
+                <p>4 : You cant exit from the Quiz while you are playing.</p>
+                <p>5 : You will get points on the basic of your correct answer.</p>
+            </div>
+            <footer>
+                    <button class="exit-btn">Exit Quize</button>
+                    <button class="continue-btn">Continue</button>
+            </footer>
+        </div>
+        <div class="quize-questions">
+            <header>
+                <div class="title">
+                    <h1>Awesome Quiz Application</h1>
+                </div>
+                <div class="timer">
+                    <div class="time-name">
+                        Time Left
+                    </div>
+                    <div class="time-number">
+                        15
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="title1">
+                    <h1>What does HTML stands for?</h1>
+                </div>
+                <div class="option-list">
+                <div class="answer1 "><p>Hyper Text Preproccessor</p></div>
+                <div class="icon"><i class="far fa-times-circle"></i></div>
+                <div class="answer1"><p>Hyper Text Markup Language </p></div>
+                <div class="icon"><i class="far fa-check-circle"></i></div>
+                <div class="answer1"><p>hyper Text Multiple Language</p></div>
+                <div class="answer1"><p>hyper Text Tool Multi Language</p></div>
+            </div>    
+            </main>
+            <footer>
+                    <div class="page-number">
+                        <span><p>1</p>of<p>5</p>Questions</span> 
+                    </div>
+                        <button class="next-btn">Next Que</button>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
